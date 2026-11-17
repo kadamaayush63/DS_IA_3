@@ -1,0 +1,101 @@
+DATA STRUCTURES - INTERNAL ACTIVITY 3
+PRN: 202501100202
+Scenario: Cold-drink flavours
+Hashing Method: Division Method
+Collision Handling: Linear Probing
+Table Size: 23
+
+INSERTION PROCESS
+-------------------------
+
+Inserting 2 (initial index = 2)
+  Inserted 2 at index 2
+
+Inserting 15 (initial index = 15)
+  Inserted 15 at index 15
+
+Inserting 28 (initial index = 5)
+  Inserted 28 at index 5
+
+Inserting 41 (initial index = 18)
+  Inserted 41 at index 18
+
+Inserting 54 (initial index = 8)
+  Inserted 54 at index 8
+
+Inserting 67 (initial index = 21)
+  Inserted 67 at index 21
+
+Inserting 80 (initial index = 11)
+  Inserted 80 at index 11
+
+Inserting 93 (initial index = 1)
+  Inserted 93 at index 1
+
+Inserting 6 (initial index = 6)
+  Inserted 6 at index 6
+
+Inserting 19 (initial index = 19)
+  Inserted 19 at index 19
+
+Inserting 32 (initial index = 9)
+  Inserted 32 at index 9
+
+Inserting 45 (initial index = 22)
+  Inserted 45 at index 22
+
+Inserting 58 (initial index = 12)
+  Inserted 58 at index 12
+
+Inserting 71 (initial index = 2)
+  Collision at index 2 (occupied by 2)
+  Inserted 71 at index 3
+
+Inserting 84 (initial index = 15)
+  Collision at index 15 (occupied by 15)
+  Inserted 84 at index 16
+
+Inserting 97 (initial index = 5)
+  Collision at index 5 (occupied by 28)
+  Collision at index 6 (occupied by 6)
+  Inserted 97 at index 7
+
+Inserting 10 (initial index = 10)
+  Inserted 10 at index 10
+
+Inserting 23 (initial index = 0)
+  Inserted 23 at index 0
+
+Inserting 36 (initial index = 13)
+  Inserted 36 at index 13
+
+Inserting 49 (initial index = 3)
+  Collision at index 3 (occupied by 71)
+  Inserted 49 at index 4
+
+FINAL HASH TABLE
+-------------------------
+Index	Value
+0	23
+1	93
+2	2
+3	71
+4	49
+5	28
+6	6
+7	97
+8	54
+9	32
+10	10
+11	80
+12	58
+13	36
+14	EMPTY
+15	15
+16	84
+17	EMPTY
+18	41
+19	19
+20	EMPTY
+21	67
+22	45
